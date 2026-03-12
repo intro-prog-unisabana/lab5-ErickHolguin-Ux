@@ -1,9 +1,10 @@
-def calcular_promedio(calificaciones):
-    if len(calificaciones) == 0:
+def calcular_promedio(clasificaciones):
+    if len(clasificaciones) == 0:
         return 0.0
-    return float(sum(calificaciones) / len(calificaciones))
+    return float(sum(clasificaciones) / len(clasificaciones))
 
-dato = input()
-calificacion = [int(x) for x in dato.split(",")]
-
-print(calcular_promedio(calificacion))
+print(calcular_promedio([85, 92, 78]))   
+print(calcular_promedio([100, 100]))     
+print(calcular_promedio([50]))         
+print(calcular_promedio([1, 2]))       
+print(calcular_promedio([]))             
