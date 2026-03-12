@@ -1,6 +1,9 @@
-def calcular_promedio(clasificaciones):
-    if len(clasificaciones) == 0:
+def calcular_promedio(calificaciones):
+    if len(calificaciones) == 0:
         return 0.0
-    
-    promedio_studiante = (sum(clasificaciones) / len(clasificaciones))
-    return float(promedio_studiante)
+    return float(sum(calificaciones) / len(calificaciones))
+
+dato = input()
+calificacion = [int(x) for x in dato.split(",")]
+
+print(calcular_promedio(calificacion))
