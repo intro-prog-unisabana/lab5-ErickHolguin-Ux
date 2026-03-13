@@ -1,4 +1,4 @@
-def modificar_datos(valor, incremento):
+def list_shift(valor, incremento):
     
     for i in range(len(valor)):
         valor[i] += incremento
