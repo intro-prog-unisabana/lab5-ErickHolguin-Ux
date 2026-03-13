@@ -1,11 +1,8 @@
 import random
-import secrets
-import time
 
-def numero_random():
-    valor_aleatorio = random.randint(1, 100-1)
-    random.seed(valor_aleatorio)
-    return(valor_aleatorio)
+def seed_secret_numbers(seed):
+    random.seed(seed)
 
+def generate_secret_number(start = 1, end = 100):
+    return random.randint(start, end)
 
-print(numero_random())
