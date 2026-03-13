@@ -46,3 +46,27 @@ if __name__ == "__main__":
   print("This file is being run directly.")
 # FREEZE CODE END
 
+def greet(name):
+    return f"Hello, {name}!"
+
+def flip(input_string):
+    return input_string[::-1]
+
+def count_letters(input_string, letter):
+    count = 0
+    for char in input_string:
+        if char == letter:
+            count += 1
+    return count
+
+def add(num1, num2):
+    """Retorna a la suma de num1 y num2."""
+    return num1 + num2
+
+def sub(num1, num2):
+    """ Retorna a el resultado de restar num2 a num1."""
+
+    return num1 - num2
+
+
+
