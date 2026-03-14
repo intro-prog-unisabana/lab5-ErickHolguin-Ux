@@ -87,5 +87,3 @@ def floor_divide(numero_1, numero_2):
 def absolute(numero):
     """ Devuelve el valor absoluto del numero. """
     return abs(numero)
-
-

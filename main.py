@@ -8,23 +8,23 @@ def main():
         if operacion == "exit":
             break
 
-        if operacion not in ["add", "sub", "multiply", "divide", "exponent", "modulo", "floor_divide", "absolute"]:
+        if operacion not in ["add", "substract", "multiply", "divide", "exponent", "modulo", "floor_divide", "absolute"]:
             print("Invalid option!")
             continue
 
-        if operacion in ["add", "sub", "multiply", "divide", "exponent", "modulo", "floor_divide"]:
+        if operacion in ["add", "substract", "multiply", "divide", "exponent", "modulo", "floor_divide"]:
             numero_1 = float(input("Enter the first number: \n"))
             numero_2 = float(input("Enter the second number \n"))
 
             if operacion == "add":
                 resultado = add(numero_1, numero_2)
-            elif operacion == "sub":
+            elif operacion == "substract":
                 resultado = sub(numero_1, numero_2)
             elif operacion == "multiply":
                 resultado = multiply(numero_1, numero_2)
             elif operacion == "divide":
                 resultado = divide(numero_1, numero_2)
-            elif operacion == "exponente":
+            elif operacion == "exponent":
                 resultado = exponent(numero_1, numero_2)
             elif operacion == "modulo":
                 resultado = modulo(numero_1, numero_2)
