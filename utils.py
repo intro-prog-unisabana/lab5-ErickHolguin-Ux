@@ -46,27 +46,46 @@ if __name__ == "__main__":
   print("This file is being run directly.")
 # FREEZE CODE END
 
-def greet(name):
-    return f"Hello, {name}!"
-
-def flip(input_string):
-    return input_string[::-1]
-
-def count_letters(input_string, letter):
-    count = 0
-    for char in input_string:
-        if char == letter:
-            count += 1
-    return count
-
 def add(num1, num2):
-    """Retorna a la suma de num1 y num2."""
+    """ Devuelve la suma de numero 1 y numero2. """
     return num1 + num2
 
 def sub(num1, num2):
-    """ Retorna a el resultado de restar num2 a num1."""
-
+    """ Devuelve el resultado de restar numero 2 a numero 1."""
     return num1 - num2
 
+def multiply(num1, num2):
+    """ Devuelve la multiplicacion de numero 1 y el numero 2. 
+    int o float: resultado de la multiplicación. """
+    return num1 * num2
+
+def divide(num1, num2):
+    """ Deuelve el resultado de dividir numero 1 entre el numero 2.
+    rectifica que el numero 2 no sea cero """
+    if num2 == 0:
+        return "Error: Division by zero is not allowed."
+    return num1 / num2
+
+def exponent(base, exp):
+    """ Deuelve la potencia del exponente. """
+    return base ** exp
+
+def modulo(num1, num2):
+    """ Devuelve el residuo de dividir numero 1 entre el numero 2.
+    rectifica que numero 2 no sea cero. """
+    if num2 == 0:
+        return "Error: Modulo by zero is not allowed."
+    return num1 % num2
+
+def floor_divide(num1, num2):
+    """ Devuelve el entero más grande menor o igual al resultado de 
+    dividir numero 1 entre el numero 2. Rectifica que el numero 2 es cero. """
+    if num2 == 0:
+        return "Error: Division by zero is not allowed."
+    return num1 // num2
+
+def absolute(num):
+    """ Devuelve el valor absoluto del numero. """
+    return abs(num)
 
 
