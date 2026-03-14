@@ -15,7 +15,7 @@ z = int(input("Enter a number:\n"))
 #FREEZE CODE END
 
 maxinum = find_max(x, y, z)
-print(f"Maximum value:", {maxinum})
+print(f"Maximum value:, {maxinum}")
 
 
 
