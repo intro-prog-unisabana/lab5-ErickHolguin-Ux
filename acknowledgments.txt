@@ -34,7 +34,5 @@ https://github.com/ErickHolguin-Ux
  *      con las regulaciones de la Universidad.  /s/ Ada Lovelace
  ******************************************************************************/
 
-[escribe y firma la declaración aquí]
-
-Esta Tara de Intro a la programacion, representa mi propio trabajo de acuerdo
+Esta Tarea de Intro a la programacion, representa mi propio trabajo de acuerdo
 con las regulaciones de la Universidad. /s/ Erick Holguin Ceron
