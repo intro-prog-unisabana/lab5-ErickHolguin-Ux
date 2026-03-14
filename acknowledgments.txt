@@ -3,14 +3,14 @@ Lab 5
 /******************************************************************************
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
-Número de horas:
+Número de horas: 12 horas, divididas en 4 dias
 
 
 /******************************************************************************
 * ¿Encontraste algún problema serio? Si es así, por favor descríbelo.
 ******************************************************************************/
 
-¿Sí o no?
+Si, el reintregar bien el if, y el buen manejo de las funcione (def)
 
 
 /******************************************************************************
@@ -23,7 +23,7 @@ Número de horas:
  *  Proporciona el enlace de tu perfil de GitHub (ej. https://github.com/afbeltranp)
  ******************************************************************************/
 
-[escribe el enlace aquí]
+https://github.com/ErickHolguin-Ux
 
 /******************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -36,3 +36,5 @@ Número de horas:
 
 [escribe y firma la declaración aquí]
 
+Esta Tara de Intro a la programacion, representa mi propio trabajo de acuerdo
+con las regulaciones de la Universidad. /s/ Erick Holguin Ceron
