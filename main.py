@@ -8,17 +8,17 @@ def main():
         if operacion == "exit":
             break
 
-        if operacion not in ["add", "substract", "multiply", "divide", "exponent", "modulo", "floor_divide", "absolute"]:
+        if operacion not in ["add", "subtract", "multiply", "divide", "exponent", "modulo", "floor_divide", "absolute"]:
             print("Invalid option!")
             continue
 
-        if operacion in ["add", "substract", "multiply", "divide", "exponent", "modulo", "floor_divide"]:
+        if operacion in ["add", "subtract", "multiply", "divide", "exponent", "modulo", "floor_divide"]:
             numero_1 = float(input("Enter the first number: \n"))
             numero_2 = float(input("Enter the second number \n"))
 
             if operacion == "add":
                 resultado = add(numero_1, numero_2)
-            elif operacion == "substract":
+            elif operacion == "subtract":
                 resultado = sub(numero_1, numero_2)
             elif operacion == "multiply":
                 resultado = multiply(numero_1, numero_2)
